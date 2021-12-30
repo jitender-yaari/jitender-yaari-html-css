@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="card">
+            <div class="box">
+                <h2 class="header">Registration Form</h2>
+
+                <form action="#">
+
+                    <input type="text" class="single-box" name="fname" placeholder="Enter first name" required>
+                    <input type="text" class="single-box" name="lname" placeholder="Enter last name" required><br>
+                    <input type="email" class="input-box" name="email" placeholder="Enter email" required><br>
+                    <span>Date Of Birth :</span> <br>
+                    <input type="date" class="input-box" name="dob" required><br>
+                    
+                        <span>Gender :</span>
+                        <div class="gender" >
+                        <input type="radio" class="gen" name="gender" required>Male
+                        <input type="radio" class="gen" name="gender" required>Female
+                        <input type="radio" class="gen" name="gender" required>Other
+                    </div>
+                    <input type="password" class="input-box" name="password" placeholder="Enter password" required><br>
+                    
+                    <span>Upload resume</span>
+                    <input type="file" class="file" required><br>
+                    <input type="checkbox" name="check" class="checkbox" required>terms and conditons<br>
+                    <input type="submit" class="input-btn" value="Register">
+                    <input type="reset" class="input-btn" value="Reset"><br>
+                    
+                    <button type="button" class="input-btn" id="signup-btn" onclick="document.location='login-form.html'">Sign In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
