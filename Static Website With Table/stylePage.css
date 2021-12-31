@@ -224,7 +224,7 @@ td{
 .table-url a{
     text-decoration: none;
     color: black;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 .table-image img{
     width: 70px;
@@ -243,12 +243,6 @@ td{
     background-color: red;
     border: 0px;
 }
-.data h1{
-    font-size: 32px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    width: 85%;
-    background-color: black;
-    margin: 100px auto;
-    margin-bottom: 1px;
+.text-left{
+    text-align: left;
 }
